@@ -53,3 +53,11 @@ using (var scope = app.Services.CreateScope())
 （2）BLL：对每个Class写BLL文件，一旦建立BLL文件，需要对controller文件进行修改，因为所有数据来源的位置进行了改变
 
 注意：BLL层调取DAL层数据，然后数据在controller中进行实现，此处用了两种方法，都可以提取数据
+
+六、建立UnitTest
+
+（1）建立新项目UnitTest
+
+(2)在依赖项中=>添加项目引用
+
+（3）用两种方法进行测试
